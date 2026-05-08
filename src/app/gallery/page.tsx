@@ -310,6 +310,17 @@ const Gallery = () => {
         thumbnail:
           "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1766269478/Screenshot_20250812_235526_Gallery_dmiay2.jpg",
       },
+      {
+        id: 18,
+        title: "BIO-STP Export To Kenya",
+        category: "video",
+        subcategory: "Products & Services",
+        description:
+          "Showcasing BIO-STP export dispatch activity for Kenya.",
+        url: "https://gallery.life-first.in/hls/BIO-STP%20Export%20To%20Kenya%20/BIO-STP%20Export%20To%20Kenya%20.m3u8",
+        thumbnail:
+          "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1778261149/video-capture-t0007.26seg-7004_jpshmv.png",
+      },
     ],
   };
 

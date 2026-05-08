@@ -25,10 +25,10 @@ const MeetTheTeam = () => {
 
   const teamMembers2 = [
     {
-      name: "Albert Mnangagwa",
-      position: "Chairman (Zimbabwe)",
+      name: "Prince Sibanda",
+      position: "Director (Zimbabwe)",
       image:
-        "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1764883732/albert_mnangagwa_ru5nu9.jpg",
+        "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1778258770/Price_oodvho.jpg",
     },
     {
       name: "Dattaram Rane",

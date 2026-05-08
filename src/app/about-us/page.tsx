@@ -239,14 +239,14 @@ const AboutUsPage: React.FC = () => {
 
   const teamMembers2: TeamMember[] = [
     {
-      name: "Albert Mnangagwa",
-      position: "Chairman (Zimbabwe)",
+      name: "Prince Sibanda",
+      position: "Director (Zimbabwe)",
       experience:
-        "25+ Years Leading ICT & Engineering Solutions Across Mining, Agriculture, and Industrial Operations",
+        "Mr. Prince Sibanda specializes in leading complex digital transformation initiatives, aligning technology strategy with business growth, and delivering innovative enterprise solutions that drive operational excellence.",
       image:
-        "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1764883732/albert_mnangagwa_ru5nu9.jpg",
+        "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1778258770/Price_oodvho.jpg",
       description:
-        "Albert Mnangagwa is a seasoned ICT engineer with over 25 years of experience spanning mining, agriculture, heavy machinery, poultry operations, and engineering services. Throughout his career, he has led and executed complex technical projects, supported large-scale industrial operations, and earned a strong reputation for delivering reliable, innovative, and results-driven solutions. His deep multi-sector expertise and hands-on leadership make him a highly respected professional in the engineering and industrial ecosystem.",
+        "Mr. Prince Sibanda is a seasoned IT expert with over 20 years of experience leading multi-million-dollar digital transformation projects across diverse industries. With a strong background in technology strategy, systems integration, and innovation management, he has successfully driven large-scale initiatives that enhance operational efficiency, digital growth, and organizational performance."
     },
     {
       name: "Dattaram Rane",

@@ -33,6 +33,14 @@ R2_VIDEO_PREFIX=
 # Example: videos/new/video1.mp4,videos/new/video2.mp4
 R2_VIDEO_KEYS=
 
+# Optional: Convert local MP4 files from your machine (comma-separated paths)
+# Example: scripts/new-video.mp4,scripts/others/another-video.mp4
+LOCAL_VIDEO_FILES=
+
+# Optional: Prefix applied to LOCAL_VIDEO_FILES for HLS output path
+# Example: others
+LOCAL_VIDEO_PREFIX=
+
 # Optional: HLS output prefix/folder (default: "hls")
 R2_HLS_PREFIX=hls
 
@@ -84,9 +92,32 @@ R2_VIDEO_KEYS=gallery/new-video-1.mp4,gallery/new-video-2.mp4
 SKIP_IF_HLS_EXISTS=true
 ```
 
+### Convert a local MP4 from `scripts/` and upload HLS
+
+If your video file is in this repo (for example inside `scripts/`), you can convert and upload directly:
+
+```env
+LOCAL_VIDEO_FILES=scripts/your-video.mp4
+LOCAL_VIDEO_PREFIX=
+SKIP_IF_HLS_EXISTS=true
+```
+
+Then run:
+
+```bash
+npm run convert:hls
+```
+
+For this mode, HLS is uploaded to:
+
+```text
+{R2_HLS_PREFIX}/{LOCAL_VIDEO_PREFIX(optional)}/{video_name_without_ext}/{video_name_without_ext}.m3u8
+```
+
 ## How It Works
 
 1. **Lists all MP4 files** in your R2 bucket (optionally filtered by prefix)
+   - If `LOCAL_VIDEO_FILES` is set, local files are used directly (no R2 MP4 download)
    - If `R2_VIDEO_KEYS` is set, only those files are processed
 2. **Downloads each MP4** to a temporary directory
 3. **Converts to HLS format** using FFmpeg:

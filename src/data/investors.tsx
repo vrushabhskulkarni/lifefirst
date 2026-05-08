@@ -58,7 +58,7 @@ export const investorNews = [
             sustainable, modular, and decentralized water and sanitation
             infrastructure,{" "}
           </strong>
-         supporting national development priorities and enabling trusted
+          supporting national development priorities and enabling trusted
           partnerships across the public and private sectors.
         </p>
 
@@ -327,6 +327,114 @@ export const investorNews = [
           <img
             src="https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1765113771/investor_item_3_zhnzfl.jpg"
             alt="MOU Signed between LifeFirst and Zinwa"
+            className="w-full sm:w-[calc(50%-0.5rem)] max-w-md h-auto rounded-lg shadow-md object-cover"
+          />
+        </div>
+      </>
+    ),
+  },
+
+  {
+    id: "item-6",
+    title: "Strategic Collaboration with the University of Nairobi (UoN)",
+    date: "April 29, 2026",
+    description: (
+      <>
+        <p className="mt-2">
+          LifeFirst Concepts & Technologies Pvt. Ltd. is proud to announce the
+          signing of a strategic Memorandum of Understanding (MoU) with the
+          University of Nairobi, one of Africa&apos;s most prestigious and
+          respected academic institutions.
+        </p>
+        <p className="mt-2">
+          This collaboration marks a significant milestone in LifeFirst&apos;s
+          journey towards promoting sustainable and innovative solutions in the
+          fields of Water, Wastewater Treatment, Recycling, Sanitation,
+          Environmental Engineering, and Smart Monitoring Technologies across
+          Africa.
+        </p>
+        <p className="mt-2">
+          The partnership was initiated following a technical presentation and
+          knowledge-sharing session conducted by the LifeFirst team with the
+          faculty and students of the Department of Chemistry at the University
+          of Nairobi. The interaction created a strong foundation for
+          collaboration in research, innovation, technology localization, and
+          practical implementation of sustainable engineering solutions tailored
+          to the needs of East Africa.
+        </p>
+        <p className="mt-2">
+          Under this MoU, LifeFirst and the University of Nairobi aim to
+          collaborate in the following key areas:
+        </p>
+
+        <ul className="list-disc list-inside space-y-2 mt-4">
+          <li>
+            <strong>
+              Research and development of sustainable water and wastewater
+              treatment technologies
+            </strong>
+          </li>
+          <li>
+            <strong>
+              Joint innovation for decentralized sanitation and recycling
+              solutions
+            </strong>
+          </li>
+          <li>
+            <strong>Technical knowledge exchange and capacity building</strong>
+          </li>
+          <li>
+            <strong>
+              Student engagement, industrial exposure, and skill development
+              programs
+            </strong>
+          </li>
+          <li>
+            <strong>
+              Development of customized solutions for local African conditions
+            </strong>
+          </li>
+          <li>
+            <strong>
+              Promotion of environmental sustainability and circular economy
+              practices
+            </strong>
+          </li>
+          <li>
+            <strong>
+              Exploration of smart technologies for water quality and hydration
+              monitoring
+            </strong>
+          </li>
+        </ul>
+
+        <p className="mt-2">
+          This partnership reinforces LifeFirst&apos;s long-term commitment to
+          Africa and aligns with our vision of building impactful collaborations
+          with leading academic institutions, governments, and industry
+          stakeholders to solve critical environmental and infrastructure
+          challenges.
+        </p>
+
+        <p className="mt-2">
+          Kenya serves as a strategic gateway to Eastern Africa, and this
+          collaboration with the University of Nairobi represents an important
+          step toward establishing a strong ecosystem for innovation,
+          sustainability, and technological advancement in the region.
+        </p>
+
+        <p className="mt-2">
+          LifeFirst looks forward to working closely with the University of
+          Nairobi to create scalable, practical, and future-ready solutions that
+          contribute to healthier communities, improved sanitation
+          infrastructure, and sustainable development across Africa.
+        </p>
+
+        {/* Image Gallery */}
+        <div className="flex flex-wrap justify-center gap-4 mt-6">
+          <img
+            src="https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1778260290/investor_item_5_plhfd6.jpg"
+            alt="Strategic Collaboration with the University of Nairobi (UoN)"
             className="w-full sm:w-[calc(50%-0.5rem)] max-w-md h-auto rounded-lg shadow-md object-cover"
           />
         </div>

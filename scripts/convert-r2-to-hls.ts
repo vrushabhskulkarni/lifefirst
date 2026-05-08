@@ -32,6 +32,13 @@ const config = {
     .split(",")
     .map((key) => key.trim())
     .filter(Boolean),
+  // Optional: convert local MP4 file paths (comma-separated, relative to project root or absolute path)
+  localVideoFiles: (process.env.LOCAL_VIDEO_FILES || "")
+    .split(",")
+    .map((file) => file.trim())
+    .filter(Boolean),
+  // Optional: R2 source prefix used for local files (helps place HLS under hls/{prefix}/...)
+  localVideoPrefix: process.env.LOCAL_VIDEO_PREFIX || "",
   // Optional: output folder for HLS files
   hlsPrefix: process.env.R2_HLS_PREFIX || "hls",
   // FFmpeg settings
@@ -66,6 +73,7 @@ if (!existsSync(HLS_TEMP_DIR)) {
 interface VideoFile {
   key: string;
   name: string;
+  localPath?: string;
 }
 
 function getHlsDirForVideo(video: VideoFile): string {
@@ -100,6 +108,24 @@ async function hlsManifestExists(video: VideoFile): Promise<boolean> {
  * List all MP4 files in the R2 bucket
  */
 async function listMP4Files(): Promise<VideoFile[]> {
+  if (config.localVideoFiles.length > 0) {
+    console.log("📋 Using local MP4 files from LOCAL_VIDEO_FILES...");
+    const localVideos = config.localVideoFiles
+      .map((filePath) => {
+        const absolutePath = resolve(process.cwd(), filePath);
+        return {
+          key: config.localVideoPrefix
+            ? `${config.localVideoPrefix.replace(/\/+$/, "")}/${basename(filePath)}`
+            : basename(filePath),
+          name: basename(filePath),
+          localPath: absolutePath,
+        };
+      })
+      .filter((video) => video.name.toLowerCase().endsWith(".mp4") && existsSync(video.localPath || ""));
+    console.log(`✅ Found ${localVideos.length} local MP4 file(s)`);
+    return localVideos;
+  }
+
   if (config.videoKeys.length > 0) {
     console.log("📋 Using explicit R2 video keys from R2_VIDEO_KEYS...");
     const explicitVideos = config.videoKeys
@@ -296,19 +322,26 @@ function cleanupHLSDir(): void {
 async function convertVideo(video: VideoFile): Promise<string | null> {
   const tempMP4Path = join(TEMP_DIR, video.name);
   const baseName = basename(video.name, extname(video.name));
+  const inputPath = video.localPath || tempMP4Path;
 
   try {
-    // Step 1: Download MP4 from R2
-    await downloadFromR2(video.key, tempMP4Path);
+    // Step 1: Use local MP4 or download from R2
+    if (video.localPath) {
+      console.log(`📁 Using local file ${video.localPath}`);
+    } else {
+      await downloadFromR2(video.key, tempMP4Path);
+    }
 
     // Step 2: Convert to HLS
-    await convertToHLS(tempMP4Path, HLS_TEMP_DIR, baseName);
+    await convertToHLS(inputPath, HLS_TEMP_DIR, baseName);
 
     // Step 3: Upload HLS files to R2
     const hlsKey = await uploadHLSToR2(HLS_TEMP_DIR, baseName, video.key);
 
     // Step 4: Cleanup temp files
-    cleanupTempFiles(tempMP4Path);
+    if (!video.localPath) {
+      cleanupTempFiles(tempMP4Path);
+    }
     cleanupHLSDir();
 
     // Step 5: Optionally delete original MP4
@@ -321,7 +354,9 @@ async function convertVideo(video: VideoFile): Promise<string | null> {
     return hlsKey;
   } catch (error) {
     console.error(`❌ Failed to convert ${video.name}:`, error);
-    cleanupTempFiles(tempMP4Path);
+    if (!video.localPath) {
+      cleanupTempFiles(tempMP4Path);
+    }
     cleanupHLSDir();
     return null;
   }
