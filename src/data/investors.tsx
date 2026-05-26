@@ -1,3 +1,32 @@
+import { InvestorGalleryCarousel } from "@/components/investors/InvestorGalleryCarousel";
+
+const investorItem7Slides = [
+  {
+    src: "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1779835606/investor_item_7_5_bctmv3.jpg",
+    alt: "LifeFirst and EMA Zimbabwe — handshake after strategic partnership MoU signing",
+  },
+  {
+    src: "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1779835606/investor_item_7_6_bhwn09.jpg",
+    alt: "LifeFirst and EMA Zimbabwe — group photo at MoU signing ceremony",
+  },
+  {
+    src: "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1779835606/investor_item_7_3_akfehi.jpg",
+    alt: "LifeFirst and EMA Zimbabwe — signing the partnership MoU documents",
+  },
+  {
+    src: "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1779835606/investor_item_7_1_gtydtw.jpg",
+    alt: "LifeFirst and EMA Zimbabwe — MoU signing at conference table",
+  },
+  {
+    src: "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1779835606/investor_item_7_4_mj3ljm.jpg",
+    alt: "LifeFirst and EMA Zimbabwe — MoU signing ceremony with representatives",
+  },
+  {
+    src: "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1779835605/investor_item_7_2_v2ogoh.jpg",
+    alt: "LifeFirst and EMA Zimbabwe — partnership MoU signing ceremony",
+  },
+];
+
 export const investorNews = [
   {
     id: "item-1",
@@ -438,6 +467,132 @@ export const investorNews = [
             className="w-full sm:w-[calc(50%-0.5rem)] max-w-md h-auto rounded-lg shadow-md object-cover"
           />
         </div>
+      </>
+    ),
+  },
+  {
+    id: "item-7",
+    title: "Strategic Partnership MoU with the Environmental Management Agency (EMA), Zimbabwe",
+    date: "May 22, 2026",
+    description: (
+      <>
+        <p className="mt-2">
+          Today marks another proud and significant milestone in the journey of
+          LifeFirst Concepts & Technologies Pvt. Ltd.￼ as we officially signed
+          a strategic Partnership MoU with the Environmental Management Agency
+          (EMA), Zimbabwe.
+        </p>
+        <p className="mt-2">
+          This is not just another agreement it is a major step toward building
+          long-term institutional partnerships in Africa and contributing
+          towards sustainable environmental infrastructure development in
+          Zimbabwe.
+        </p>
+        <p className="mt-2">
+          EMA is one of the most important environmental regulatory and
+          implementation agencies in Zimbabwe, operating under the Ministry of
+          Environment, Climate and Wildlife. The organization plays a critical
+          national role in:
+        </p>
+        <ul className="list-disc list-inside space-y-2 mt-4">
+          <li>
+            <strong>Environmental protection and compliance</strong>
+          </li>
+          <li>
+            <strong>Wastewater discharge regulations and monitoring</strong>
+          </li>
+          <li>
+            <strong>
+              Water pollution control and environmental sustainability
+            </strong>
+          </li>
+          <li>
+            <strong>Promotion of climate-resilient infrastructure</strong>
+          </li>
+          <li>
+            <strong>Solid waste and sanitation management</strong>
+          </li>
+          <li>
+            <strong>
+              Environmental impact assessments and policy implementation
+            </strong>
+          </li>
+          <li>
+            <strong>
+              Supporting sustainable industrial and municipal development across
+              Zimbabwe
+            </strong>
+          </li>
+        </ul>
+        <p className="mt-2">
+          For LifeFirst, this partnership is extremely important because it
+          strengthens our position as a trusted long-term infrastructure and
+          sustainability partner in Zimbabwe and Africa.
+        </p>
+        <p className="mt-2">
+          Through this collaboration, LifeFirst aims to work closely with EMA
+          in areas such as:
+        </p>
+        <ul className="list-disc list-inside space-y-2 mt-4">
+          <li>
+            <strong>Sustainable Water & Wastewater Treatment Solutions</strong>
+          </li>
+          <li>
+            <strong>Decentralized Sewage Treatment Systems</strong>
+          </li>
+          <li>
+            <strong>Biodigesters & Sanitation Infrastructure</strong>
+          </li>
+          <li>
+            <strong>Wastewater Recycling & Reuse</strong>
+          </li>
+          <li>
+            <strong>Environmental Protection Initiatives</strong>
+          </li>
+          <li>
+            <strong>Capacity Building & Technology Exchange</strong>
+          </li>
+          <li>
+            <strong>
+              Development of Sustainable Environmental Frameworks and Policies
+            </strong>
+          </li>
+          <li>
+            <strong>
+              Supporting industries, municipalities, hospitals, institutions,
+              and communities with modern treatment solutions
+            </strong>
+          </li>
+        </ul>
+        <p className="mt-2">
+          This MoU also reflects the growing confidence that government
+          institutions in Zimbabwe are placing in LifeFirst’s capabilities,
+          technology, commitment, and long-term vision for Africa.
+        </p>
+        <p className="mt-2">
+          Over the last few months, LifeFirst has continuously expanded its
+          footprint in Zimbabwe through strategic collaborations with key
+          national institutions, and this EMA partnership further reinforces our
+          mission of becoming a leading sustainability and environmental
+          engineering company across Africa.
+        </p>
+        <p className="mt-2">
+          As an Indian-origin multinational engineering company with a
+          registered presence in Zimbabwe, we remain committed to bringing
+          innovative, sustainable, and impactful solutions that create long-term
+          value for communities, governments, industries, and future
+          generations.
+        </p>
+        <p className="mt-2">
+          A heartfelt thank you to the entire LifeFirst team, our partners,
+          well-wishers, and everyone who continues to believe in this journey.
+        </p>
+        <p className="mt-2">
+          Step by step, LifeFirst is building something meaningful for the
+          future of Africa.
+        </p>
+
+        <InvestorGalleryCarousel slides={investorItem7Slides} />
       </>
     ),
   },
