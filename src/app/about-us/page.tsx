@@ -294,7 +294,7 @@ const AboutUsPage: React.FC = () => {
     {
       name: "Chetan K. Bawane",
       position: "Water Infrastructure Project Specialist", // Add actual position
-      experience: "Electrical Technician with 5+ Years of Experience.",
+      experience: "Water Infrastructure Project Specialist with 8+ Years of Experience",
       image:
         "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548404/Chetan_Bawane_foggrl.jpg", // Placeholder image
       description:
@@ -303,7 +303,7 @@ const AboutUsPage: React.FC = () => {
     {
       name: "Atish Kamble",
       position: "Water Infrastructure Project Engineer", // Add actual position
-      experience: "Electrical Technician with 5+ Years of Experience.",
+      experience: "Water Infrastructure Project Engineer with 5+ Years of Experience",
       image:
         "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548402/Atish_Kamble_yukqpg.jpg", // Placeholder image
       description:
@@ -321,7 +321,7 @@ const AboutUsPage: React.FC = () => {
     {
       name: "Amol Sanap",
       position: "Dedicated Civil Engineer", // Add actual position
-      experience: "Electrical Technician with 5+ Years of Experience.",
+      experience: "Dedicated Civil Engineer with 8+ Years of Expertise in Water & Waste Management",
       image:
         "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548403/Amol_Sanap_rrdwne.jpg", // Placeholder image
       description:
@@ -330,7 +330,7 @@ const AboutUsPage: React.FC = () => {
     {
       name: "Swaraj Sobale",
       position: "Specialist in Purchase & Supply Chain Management", // Add actual position
-      experience: "Electrical Technician with 5+ Years of Experience.",
+      experience: "Specialist in Purchase & Supply Chain Management",
       image:
         "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548406/Swaraj_Sobale_2_onemqr.png", // Placeholder image
       description:
@@ -340,7 +340,7 @@ const AboutUsPage: React.FC = () => {
     {
       name: "Shubham Shivarkar",
       position: "CAD Engineer", // Add actual position
-      experience: "Electrical Technician with 5+ Years of Experience.",
+      experience: "CAD Engineer with 2+ Years of Experience",
       image:
         "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548405/Shubham_Shivarkar_owxfzt.jpg", // Placeholder image
       description:
@@ -358,7 +358,7 @@ const AboutUsPage: React.FC = () => {
     {
       name: "Manisha Walde",
       position: "Project Proposal & Estimation Engineer", // Add actual position
-      experience: "Electrical Technician with 5+ Years of Experience.",
+      experience: "Project Proposal & Estimation Engineer with 2+ Years of Experience",
       image:
         "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548403/Manisha_Walde_fifdf2.jpg", // Placeholder image
       description:
@@ -368,7 +368,7 @@ const AboutUsPage: React.FC = () => {
     {
       name: "Rupesh Ingale",
       position: "Water Infrastructure Project Specialist", // Add actual position
-      experience: "Electrical Technician with 5+ Years of Experience.",
+      experience: "Water Infrastructure Project Specialist with 5+ Years of Experience",
       image:
         "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548404/Rupesh_Ingle_xpbjs8.jpg", // Placeholder image
       description:
@@ -377,7 +377,7 @@ const AboutUsPage: React.FC = () => {
     {
       name: "Ravindra Darade",
       position: "Manufacturing & Operations Professional", // Add actual position
-      experience: "Electrical Technician with 5+ Years of Experience.",
+      experience: "Manufacturing & Operations Professional with 2+ Years of Experience",
       image:
         "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548403/Ravindra_Darade_zteu2r.jpg", // Placeholder image
       description:

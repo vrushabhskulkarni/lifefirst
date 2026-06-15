@@ -198,18 +198,19 @@ const CTASection: React.FC = () => {
           email: "mdsa@life-first.in",
         },
         {
-          name: "LifeFirst Concepts & Technologies (Private) Limited",
-          address: "282 Tryall Road, 282, Cape Town, Western Cape, 7441, South Africa.",
-          phone: "+27 72 777 0653",
-          email: "mdsa@life-first.in",
+          name: "Nitin Srivastava — Business Head Europe",
+          address:
+            "Oosterlengte 57, 3454 RH, De Meern, Utrecht -Netherland",
+          phone: "+31 6 44118794",
+          email: "nitin@life-first.in",
         },
         {
-          name: "LifeFirst Concepts & Technologies (Private) Limited",
-          address: "282 Tryall Road, 282, Cape Town, Western Cape, 7441, South Africa.",
-          phone: "+27 72 777 0653",
-          email: "mdsa@life-first.in",
+          name: "Kipkoros Kandie — Managing Director (Kenya)",
+          address: "Nairobi, Kenya",
+          phone: "+254 721 796515",
+          email: "mdken@life-first.in",
         },
-        
+
       ],
     },
   };
