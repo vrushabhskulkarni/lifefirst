@@ -279,14 +279,14 @@ const AboutUsPage: React.FC = () => {
         "Shashank More, Manager – Projects at LifeFirst Concepts & Technologies Pvt. Ltd., brings 10 years of specialized experience in executing water and wastewater treatment projects with precision and excellence. Holding a B.E. in Civil Engineering, Shashank has developed a strong foundation in project planning, structural design, and site execution, enabling him to deliver solutions that consistently meet client expectations. Throughout his career, Shashank has demonstrated a keen eye for quality, efficiency, and reliability, ensuring that every project adheres to the highest technical standards while maintaining strict timelines and budgets. His expertise spans municipal, industrial, and commercial installations, where he has successfully managed multidisciplinary teams and coordinated with clients, consultants, and vendors to ensure smooth project execution from start to finish. Known for his problem solving abilities and commitment to innovation, Shashank continuously adopts modern construction methodologies and digital tools to enhance project productivity and accuracy. His dedication to timely delivery and customer satisfaction has earned him recognition as a dependable leader within the LifeFirst project team. By combining technical expertise with a results driven approach, Shashank More plays a pivotal role in strengthening LifeFirst’s reputation as a trusted partner for sustainable water and wastewater infrastructure solutions.",
     },
     {
-      name: "Vinishka Srilakshmi",
-      position: "Head, Strategic Partnerships & Business Growth",
+      name: "Shaun Brooker",
+      position: "Managing Director (South Africa)",
       experience:
-        "5+ years of experience in project management and operations.",
+        "25+ years of experience in strategic partnerships & project structuring.",
       image:
-        "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548984/Vinishka_Srilakshmi_zuepn3.jpg",
+        "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1781549955/Shaun_Brooker_cjvcgs.jpg",
       description:
-        "Vinishka Srilakshmi, Head of Strategic Partnerships & Business Growth at LifeFirst Concepts & Technologies Pvt. Ltd., brings over 10 years of experience in building high impact partnerships and driving sustainable business growth across diverse markets. A Commerce graduate with a sharp business acumen, Srilakshmi has been instrumental in shaping the company’s global expansion strategy through innovative market development initiatives and strategic collaborations. Her expertise lies in identifying new business opportunities, fostering long-term alliances, and creating win-win partnerships with governments, institutions, and private sector stakeholders. By combining market intelligence, relationship management, and strategic negotiation skills, Srilakshmi has successfully accelerated LifeFirst’s presence across India, the Middle East, and Africa. Known for her forward-thinking approach and results-driven mindset, she continuously explores new revenue streams, funding models, and market-entry strategies, aligning them with the company’s vision of delivering sustainable water, wastewater, and sanitation solutions globally. Srilakshmi’s leadership ensures that LifeFirst remains at the forefront of innovative collaborations and global business growth.",
+        "Shaun Brooker is a business strategist and sustainability-driven entrepreneur focused on delivering innovative water, wastewater, sanitation, and environmental infrastructure solutions across Southern Africa. As the driving force behind LifeFirst’s growth in South Africa and the SADC region, Shaun is passionate about connecting world-class technologies with real-world industry challenges particularly within mining, municipalities, commercial developments, agriculture, and ESG-driven sectors. With a strong background in business development, project structuring, strategic partnerships, and infrastructure opportunities, Shaun specializes in identifying practical, scalable solutions that create measurable environmental and operational impact. His approach combines commercial thinking with a commitment to sustainability, helping organisations reduce environmental risk, improve compliance, and unlock long-term value through smarter water and sanitation systems. Shaun believes that sustainable infrastructure is not just about compliance it is about building resilient communities, enabling responsible industrial growth, and creating solutions that leave a lasting legacy.  At LifeFirst, Shaun is committed to expanding access to innovative decentralised water, wastewater, and sanitation technologies that transform challenges into opportunities for cleaner, more sustainable operations across Africa.",
     },
   ];
 
@@ -336,15 +336,7 @@ const AboutUsPage: React.FC = () => {
       description:
         "An accomplished professional with expertise in Purchase and Supply Chain Management, bringing strong capabilities in Data Analysis, Supplier Evaluation and Selection, Cost Management and Savings, Market Research, and End-to-End Supply Chain Optimization. Adept at driving process efficiency, strategic sourcing, and innovative solutions to ensure cost-effective and seamless operations across the procurement and supply chain lifecycle.", // Add actual description
     },
-    {
-      name: "Madhav More",
-      position: "Project Installation & Plumbing Specialist", // Add actual position
-      experience: "Electrical Technician with 5+ Years of Experience.",
-      image:
-        "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548406/Mahadev_More_n9nqra.jpg", // Placeholder image
-      description:
-        "A seasoned professional with over 10 years of expertise in project installation and plumbing solutions for water and wastewater projects. Skilled in overseeing end-to-end installation processes, ensuring quality, safety, and timely execution across diverse project environments.", // Add actual description
-    },
+    
     {
       name: "Shubham Shivarkar",
       position: "CAD Engineer", // Add actual position
@@ -372,15 +364,7 @@ const AboutUsPage: React.FC = () => {
       description:
         "A results-driven professional with over 2 years of experience in preparing project proposals and cost estimations for water supply schemes, water treatment plants (WTPs), and sewage treatment plant (STP) projects. Skilled in delivering accurate, cost-effective, and technically sound solutions to support successful project execution.", // Add actual description
     },
-    {
-      name: "Payal Bhosale",
-      position: "HR–Finance Associate", // Add actual position
-      experience: "Electrical Technician with 5+ Years of Experience.",
-      image:
-        "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548403/Payal_Bhosale_jh77yc.jpg", // Placeholder image
-      description:
-        "An HR–Finance professional with expertise in employee onboarding, payroll processing, HR documentation, and supporting organizational HR functions, along with financial accounting tasks such as journal entries, reconciliations, and reporting. Adept in Tally and Microsoft Excel, ensuring seamless integration of HR and finance operations.", // Add actual description
-    },
+    
     {
       name: "Rupesh Ingale",
       position: "Water Infrastructure Project Specialist", // Add actual position

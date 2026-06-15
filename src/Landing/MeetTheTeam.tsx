@@ -49,10 +49,10 @@ const MeetTheTeam = () => {
         "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1754928789/WhatsApp_Image_2025-07-28_at_12.40.01_eg2zec.jpg",
     },
     {
-      name: "Vinishka Srilakshmi",
-      position: "Head, Strategic Partnerships",
+      name: "Shaun Brooker",
+      position: "Managing Director (South Africa)",
       image:
-        "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1758548984/Vinishka_Srilakshmi_zuepn3.jpg",
+        "https://res.cloudinary.com/dsvfcckqy/image/upload/f_auto,q_auto/v1781549955/Shaun_Brooker_cjvcgs.jpg",
     },
   ];
 

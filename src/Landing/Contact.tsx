@@ -191,6 +191,25 @@ const CTASection: React.FC = () => {
           phone: "+91 8806 977 277 ",
           email: "export@life-first.in",
         },
+        {
+          name: "LifeFirst Concepts & Technologies (Private) Limited",
+          address: "282 Tryall Road, 282, Cape Town, Western Cape, 7441, South Africa.",
+          phone: "+27 72 777 0653",
+          email: "mdsa@life-first.in",
+        },
+        {
+          name: "LifeFirst Concepts & Technologies (Private) Limited",
+          address: "282 Tryall Road, 282, Cape Town, Western Cape, 7441, South Africa.",
+          phone: "+27 72 777 0653",
+          email: "mdsa@life-first.in",
+        },
+        {
+          name: "LifeFirst Concepts & Technologies (Private) Limited",
+          address: "282 Tryall Road, 282, Cape Town, Western Cape, 7441, South Africa.",
+          phone: "+27 72 777 0653",
+          email: "mdsa@life-first.in",
+        },
+        
       ],
     },
   };
