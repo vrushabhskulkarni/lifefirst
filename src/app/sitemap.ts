@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { route: "/gallery", lastModified: "2026-05-08" },
     { route: "/investors", lastModified: "2026-05-27" },
     { route: "/privacy-policy", lastModified: "2025-09-11" },
+    { route: "/lifeflow/privacy", lastModified: "2026-11-19" },
     { route: "/terms-of-use", lastModified: "2025-09-11" },
     { route: "/recognitions", lastModified: "2026-03-25" },
   ];
